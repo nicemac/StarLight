@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5444C32913E5FB210091148D /* CocoaHotkeys.m in Sources */ = {isa = PBXBuildFile; fileRef = 5444C32813E5FB210091148D /* CocoaHotkeys.m */; };
+		5444C32F13E5FB2C0091148D /* PWHotkey.m in Sources */ = {isa = PBXBuildFile; fileRef = 5444C32B13E5FB2C0091148D /* PWHotkey.m */; };
+		5444C33013E5FB2C0091148D /* PWHotkeyCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5444C32D13E5FB2C0091148D /* PWHotkeyCenter.m */; };
+		5444C33213E5FBD20091148D /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5444C33113E5FBD20091148D /* Carbon.framework */; };
+		5464AD6113B7DAC000D857F3 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5464AD6013B7DAC000D857F3 /* CoreAudio.framework */; };
+		E276391E1389B5B900788E15 /* starBaron.psd in Resources */ = {isa = PBXBuildFile; fileRef = E276391D1389B5B900788E15 /* starBaron.psd */; };
+		E27639201389B5BE00788E15 /* starBaroff.psd in Resources */ = {isa = PBXBuildFile; fileRef = E276391F1389B5BE00788E15 /* starBaroff.psd */; };
+		E294A6F313802D5D009FDDCB /* mplayer.exec in Resources */ = {isa = PBXBuildFile; fileRef = E294A6F213802D5D009FDDCB /* mplayer.exec */; };
+		E294A70213802D91009FDDCB /* ChannelLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = E294A6F713802D91009FDDCB /* ChannelLoader.m */; };
+		E294A70313802D91009FDDCB /* ChannelLogos.m in Sources */ = {isa = PBXBuildFile; fileRef = E294A6F913802D91009FDDCB /* ChannelLogos.m */; };
+		E294A70413802D91009FDDCB /* channels.applescript in Sources */ = {isa = PBXBuildFile; fileRef = E294A6FA13802D91009FDDCB /* channels.applescript */; };
+		E294A70513802D91009FDDCB /* ChannelXML.m in Sources */ = {isa = PBXBuildFile; fileRef = E294A6FC13802D91009FDDCB /* ChannelXML.m */; };
+		E294A70613802D91009FDDCB /* HashValue.m in Sources */ = {isa = PBXBuildFile; fileRef = E294A6FE13802D91009FDDCB /* HashValue.m */; };
+		E294A70713802D91009FDDCB /* login.applescript in Sources */ = {isa = PBXBuildFile; fileRef = E294A6FF13802D91009FDDCB /* login.applescript */; };
+		E294A70813802D91009FDDCB /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = E294A70113802D91009FDDCB /* XMLReader.m */; };
+		E294A71213802D9B009FDDCB /* PauseButton.psd in Resources */ = {isa = PBXBuildFile; fileRef = E294A70A13802D9B009FDDCB /* PauseButton.psd */; };
+		E294A71313802D9B009FDDCB /* PlayButton.psd in Resources */ = {isa = PBXBuildFile; fileRef = E294A70B13802D9B009FDDCB /* PlayButton.psd */; };
+		E294A71413802D9B009FDDCB /* starClosed.psd in Resources */ = {isa = PBXBuildFile; fileRef = E294A70C13802D9B009FDDCB /* starClosed.psd */; };
+		E294A71513802D9B009FDDCB /* StarIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = E294A70D13802D9B009FDDCB /* StarIcon.icns */; };
+		E294A71613802D9B009FDDCB /* starOff.psd in Resources */ = {isa = PBXBuildFile; fileRef = E294A70E13802D9B009FDDCB /* starOff.psd */; };
+		E294A71713802D9B009FDDCB /* starOn.psd in Resources */ = {isa = PBXBuildFile; fileRef = E294A70F13802D9B009FDDCB /* starOn.psd */; };
+		E294A71813802D9B009FDDCB /* starOpen.psd in Resources */ = {isa = PBXBuildFile; fileRef = E294A71013802D9B009FDDCB /* starOpen.psd */; };
+		E294A71913802D9B009FDDCB /* StopButton.psd in Resources */ = {isa = PBXBuildFile; fileRef = E294A71113802D9B009FDDCB /* StopButton.psd */; };
+		E294A71E13802E80009FDDCB /* lib in Resources */ = {isa = PBXBuildFile; fileRef = E294A71D13802E80009FDDCB /* lib */; };
+		E29946EF1380298800ACA226 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E29946EE1380298800ACA226 /* Cocoa.framework */; };
+		E29946F11380298800ACA226 /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E29946F01380298800ACA226 /* AppleScriptObjC.framework */; };
+		E29946FB1380298800ACA226 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E29946F91380298800ACA226 /* InfoPlist.strings */; };
+		E29946FE1380298800ACA226 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E29946FD1380298800ACA226 /* main.m */; };
+		E29947011380298800ACA226 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E29946FF1380298800ACA226 /* Credits.rtf */; };
+		E29947031380298800ACA226 /* StarLightAppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = E29947021380298800ACA226 /* StarLightAppDelegate.applescript */; };
+		E29947061380298900ACA226 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E29947041380298900ACA226 /* MainMenu.xib */; };
+		E2AB53F31388568E001D5198 /* JNS_StatusItemController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AB53F21388568E001D5198 /* JNS_StatusItemController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5444C32713E5FB210091148D /* CocoaHotkeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaHotkeys.h; sourceTree = "<group>"; };
+		5444C32813E5FB210091148D /* CocoaHotkeys.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CocoaHotkeys.m; sourceTree = "<group>"; };
+		5444C32B13E5FB2C0091148D /* PWHotkey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWHotkey.m; sourceTree = "<group>"; };
+		5444C32C13E5FB2C0091148D /* PWHotkey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWHotkey.h; sourceTree = "<group>"; };
+		5444C32D13E5FB2C0091148D /* PWHotkeyCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWHotkeyCenter.m; sourceTree = "<group>"; };
+		5444C32E13E5FB2C0091148D /* PWHotkeyCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWHotkeyCenter.h; sourceTree = "<group>"; };
+		5444C33113E5FBD20091148D /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		5464AD6013B7DAC000D857F3 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		E276391D1389B5B900788E15 /* starBaron.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = starBaron.psd; sourceTree = "<group>"; };
+		E276391F1389B5BE00788E15 /* starBaroff.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = starBaroff.psd; sourceTree = "<group>"; };
+		E294A6F213802D5D009FDDCB /* mplayer.exec */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = mplayer.exec; sourceTree = "<group>"; };
+		E294A6F613802D91009FDDCB /* ChannelLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelLoader.h; sourceTree = "<group>"; };
+		E294A6F713802D91009FDDCB /* ChannelLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelLoader.m; sourceTree = "<group>"; };
+		E294A6F813802D91009FDDCB /* ChannelLogos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelLogos.h; sourceTree = "<group>"; };
+		E294A6F913802D91009FDDCB /* ChannelLogos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelLogos.m; sourceTree = "<group>"; };
+		E294A6FA13802D91009FDDCB /* channels.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; name = channels.applescript; path = Sources/channels.applescript; sourceTree = "<group>"; };
+		E294A6FB13802D91009FDDCB /* ChannelXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelXML.h; sourceTree = "<group>"; };
+		E294A6FC13802D91009FDDCB /* ChannelXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelXML.m; sourceTree = "<group>"; };
+		E294A6FD13802D91009FDDCB /* HashValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HashValue.h; sourceTree = "<group>"; };
+		E294A6FE13802D91009FDDCB /* HashValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HashValue.m; sourceTree = "<group>"; };
+		E294A6FF13802D91009FDDCB /* login.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; name = login.applescript; path = Sources/login.applescript; sourceTree = "<group>"; };
+		E294A70013802D91009FDDCB /* XMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLReader.h; sourceTree = "<group>"; };
+		E294A70113802D91009FDDCB /* XMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLReader.m; sourceTree = "<group>"; };
+		E294A70A13802D9B009FDDCB /* PauseButton.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = PauseButton.psd; sourceTree = "<group>"; };
+		E294A70B13802D9B009FDDCB /* PlayButton.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = PlayButton.psd; sourceTree = "<group>"; };
+		E294A70C13802D9B009FDDCB /* starClosed.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = starClosed.psd; sourceTree = "<group>"; };
+		E294A70D13802D9B009FDDCB /* StarIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = StarIcon.icns; sourceTree = "<group>"; };
+		E294A70E13802D9B009FDDCB /* starOff.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = starOff.psd; sourceTree = "<group>"; };
+		E294A70F13802D9B009FDDCB /* starOn.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = starOn.psd; sourceTree = "<group>"; };
+		E294A71013802D9B009FDDCB /* starOpen.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = starOpen.psd; sourceTree = "<group>"; };
+		E294A71113802D9B009FDDCB /* StopButton.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = StopButton.psd; sourceTree = "<group>"; };
+		E294A71D13802E80009FDDCB /* lib */ = {isa = PBXFileReference; lastKnownFileType = folder; path = lib; sourceTree = "<group>"; };
+		E29946EA1380298800ACA226 /* StarLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E29946EE1380298800ACA226 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E29946F01380298800ACA226 /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
+		E29946F31380298800ACA226 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		E29946F41380298800ACA226 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E29946F51380298800ACA226 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E29946F81380298800ACA226 /* StarLight-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StarLight-Info.plist"; sourceTree = "<group>"; };
+		E29946FA1380298800ACA226 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E29946FC1380298800ACA226 /* StarLight-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StarLight-Prefix.pch"; sourceTree = "<group>"; };
+		E29946FD1380298800ACA226 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E29947001380298800ACA226 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		E29947021380298800ACA226 /* StarLightAppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = StarLightAppDelegate.applescript; sourceTree = "<group>"; };
+		E29947051380298900ACA226 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E2AB53F11388568E001D5198 /* JNS_StatusItemController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNS_StatusItemController.h; sourceTree = "<group>"; };
+		E2AB53F21388568E001D5198 /* JNS_StatusItemController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNS_StatusItemController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E29946E71380298800ACA226 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E29946EF1380298800ACA226 /* Cocoa.framework in Frameworks */,
+				E29946F11380298800ACA226 /* AppleScriptObjC.framework in Frameworks */,
+				5464AD6113B7DAC000D857F3 /* CoreAudio.framework in Frameworks */,
+				5444C33213E5FBD20091148D /* Carbon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E294A6F113802D5D009FDDCB /* bin */ = {
+			isa = PBXGroup;
+			children = (
+				E294A6F213802D5D009FDDCB /* mplayer.exec */,
+				E294A71D13802E80009FDDCB /* lib */,
+			);
+			path = bin;
+			sourceTree = "<group>";
+		};
+		E294A6F513802D91009FDDCB /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				5444C32713E5FB210091148D /* CocoaHotkeys.h */,
+				5444C32813E5FB210091148D /* CocoaHotkeys.m */,
+				5444C32B13E5FB2C0091148D /* PWHotkey.m */,
+				5444C32C13E5FB2C0091148D /* PWHotkey.h */,
+				5444C32D13E5FB2C0091148D /* PWHotkeyCenter.m */,
+				5444C32E13E5FB2C0091148D /* PWHotkeyCenter.h */,
+				E2AB53F11388568E001D5198 /* JNS_StatusItemController.h */,
+				E2AB53F21388568E001D5198 /* JNS_StatusItemController.m */,
+				E294A6F613802D91009FDDCB /* ChannelLoader.h */,
+				E294A6F713802D91009FDDCB /* ChannelLoader.m */,
+				E294A6F813802D91009FDDCB /* ChannelLogos.h */,
+				E294A6F913802D91009FDDCB /* ChannelLogos.m */,
+				E294A6FB13802D91009FDDCB /* ChannelXML.h */,
+				E294A6FC13802D91009FDDCB /* ChannelXML.m */,
+				E294A6FD13802D91009FDDCB /* HashValue.h */,
+				E294A6FE13802D91009FDDCB /* HashValue.m */,
+				E294A70013802D91009FDDCB /* XMLReader.h */,
+				E294A70113802D91009FDDCB /* XMLReader.m */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		E294A70913802D9B009FDDCB /* images */ = {
+			isa = PBXGroup;
+			children = (
+				E276391D1389B5B900788E15 /* starBaron.psd */,
+				E276391F1389B5BE00788E15 /* starBaroff.psd */,
+				E294A70A13802D9B009FDDCB /* PauseButton.psd */,
+				E294A70B13802D9B009FDDCB /* PlayButton.psd */,
+				E294A70C13802D9B009FDDCB /* starClosed.psd */,
+				E294A70D13802D9B009FDDCB /* StarIcon.icns */,
+				E294A70E13802D9B009FDDCB /* starOff.psd */,
+				E294A70F13802D9B009FDDCB /* starOn.psd */,
+				E294A71013802D9B009FDDCB /* starOpen.psd */,
+				E294A71113802D9B009FDDCB /* StopButton.psd */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		E29946DF1380298800ACA226 = {
+			isa = PBXGroup;
+			children = (
+				E29946F61380298800ACA226 /* StarLight */,
+				E29946ED1380298800ACA226 /* Frameworks */,
+				E29946EB1380298800ACA226 /* Products */,
+				E294A6F113802D5D009FDDCB /* bin */,
+			);
+			sourceTree = "<group>";
+		};
+		E29946EB1380298800ACA226 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E29946EA1380298800ACA226 /* StarLight.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E29946ED1380298800ACA226 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5444C33113E5FBD20091148D /* Carbon.framework */,
+				5464AD6013B7DAC000D857F3 /* CoreAudio.framework */,
+				E29946EE1380298800ACA226 /* Cocoa.framework */,
+				E29946F01380298800ACA226 /* AppleScriptObjC.framework */,
+				E29946F21380298800ACA226 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E29946F21380298800ACA226 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E29946F31380298800ACA226 /* AppKit.framework */,
+				E29946F41380298800ACA226 /* CoreData.framework */,
+				E29946F51380298800ACA226 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		E29946F61380298800ACA226 /* StarLight */ = {
+			isa = PBXGroup;
+			children = (
+				E29947021380298800ACA226 /* StarLightAppDelegate.applescript */,
+				E294A6FA13802D91009FDDCB /* channels.applescript */,
+				E294A6FF13802D91009FDDCB /* login.applescript */,
+				E29947041380298900ACA226 /* MainMenu.xib */,
+				E294A70913802D9B009FDDCB /* images */,
+				E294A6F513802D91009FDDCB /* Sources */,
+				E29946F71380298800ACA226 /* Supporting Files */,
+			);
+			path = StarLight;
+			sourceTree = "<group>";
+		};
+		E29946F71380298800ACA226 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E29946F81380298800ACA226 /* StarLight-Info.plist */,
+				E29946F91380298800ACA226 /* InfoPlist.strings */,
+				E29946FC1380298800ACA226 /* StarLight-Prefix.pch */,
+				E29946FD1380298800ACA226 /* main.m */,
+				E29946FF1380298800ACA226 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E29946E91380298800ACA226 /* StarLight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E29947091380298900ACA226 /* Build configuration list for PBXNativeTarget "StarLight" */;
+			buildPhases = (
+				E29946E61380298800ACA226 /* Sources */,
+				E29946E71380298800ACA226 /* Frameworks */,
+				E29946E81380298800ACA226 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StarLight;
+			productName = StarLight;
+			productReference = E29946EA1380298800ACA226 /* StarLight.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E29946E11380298800ACA226 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0410;
+			};
+			buildConfigurationList = E29946E41380298800ACA226 /* Build configuration list for PBXProject "StarLight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E29946DF1380298800ACA226;
+			productRefGroup = E29946EB1380298800ACA226 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E29946E91380298800ACA226 /* StarLight */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E29946E81380298800ACA226 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E29946FB1380298800ACA226 /* InfoPlist.strings in Resources */,
+				E29947011380298800ACA226 /* Credits.rtf in Resources */,
+				E29947061380298900ACA226 /* MainMenu.xib in Resources */,
+				E294A6F313802D5D009FDDCB /* mplayer.exec in Resources */,
+				E294A71213802D9B009FDDCB /* PauseButton.psd in Resources */,
+				E294A71313802D9B009FDDCB /* PlayButton.psd in Resources */,
+				E294A71413802D9B009FDDCB /* starClosed.psd in Resources */,
+				E294A71513802D9B009FDDCB /* StarIcon.icns in Resources */,
+				E294A71613802D9B009FDDCB /* starOff.psd in Resources */,
+				E294A71713802D9B009FDDCB /* starOn.psd in Resources */,
+				E294A71813802D9B009FDDCB /* starOpen.psd in Resources */,
+				E294A71913802D9B009FDDCB /* StopButton.psd in Resources */,
+				E294A71E13802E80009FDDCB /* lib in Resources */,
+				E276391E1389B5B900788E15 /* starBaron.psd in Resources */,
+				E27639201389B5BE00788E15 /* starBaroff.psd in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E29946E61380298800ACA226 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E29946FE1380298800ACA226 /* main.m in Sources */,
+				E29947031380298800ACA226 /* StarLightAppDelegate.applescript in Sources */,
+				E294A70213802D91009FDDCB /* ChannelLoader.m in Sources */,
+				E294A70313802D91009FDDCB /* ChannelLogos.m in Sources */,
+				E294A70413802D91009FDDCB /* channels.applescript in Sources */,
+				E294A70513802D91009FDDCB /* ChannelXML.m in Sources */,
+				E294A70613802D91009FDDCB /* HashValue.m in Sources */,
+				E294A70713802D91009FDDCB /* login.applescript in Sources */,
+				E294A70813802D91009FDDCB /* XMLReader.m in Sources */,
+				E2AB53F31388568E001D5198 /* JNS_StatusItemController.m in Sources */,
+				5444C32913E5FB210091148D /* CocoaHotkeys.m in Sources */,
+				5444C32F13E5FB2C0091148D /* PWHotkey.m in Sources */,
+				5444C33013E5FB2C0091148D /* PWHotkeyCenter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E29946F91380298800ACA226 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E29946FA1380298800ACA226 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E29946FF1380298800ACA226 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E29947001380298800ACA226 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		E29947041380298900ACA226 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E29947051380298900ACA226 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E29947071380298900ACA226 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		E29947081380298900ACA226 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		E299470A1380298900ACA226 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				"FRAMEWORK_SEARCH_PATHS[sdk=macosx10.6][arch=i386]" = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(DEVELOPER_DIR)/SDKs/MacOSX10.6.sdk/System/Library/Frameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StarLight/StarLight-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				GCC_WARN_EFFECTIVE_CPLUSPLUS_VIOLATIONS = YES;
+				INFOPLIST_FILE = "StarLight/StarLight-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/bin/lib\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = NO;
+				OSACOMPILE_EXECUTE_ONLY = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.6;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E299470B1380298900ACA226 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(DEVELOPER_DIR)/SDKs/MacOSX10.6.sdk/System/Library/Frameworks\"",
+				);
+				"FRAMEWORK_SEARCH_PATHS[sdk=macosx10.6][arch=i386]" = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(DEVELOPER_DIR)/SDKs/MacOSX10.6.sdk/System/Library/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StarLight/StarLight-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				GCC_WARN_EFFECTIVE_CPLUSPLUS_VIOLATIONS = YES;
+				INFOPLIST_FILE = "StarLight/StarLight-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/bin/lib\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = NO;
+				OSACOMPILE_EXECUTE_ONLY = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.6;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E29946E41380298800ACA226 /* Build configuration list for PBXProject "StarLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E29947071380298900ACA226 /* Debug */,
+				E29947081380298900ACA226 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E29947091380298900ACA226 /* Build configuration list for PBXNativeTarget "StarLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E299470A1380298900ACA226 /* Debug */,
+				E299470B1380298900ACA226 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E29946E11380298800ACA226 /* Project object */;
+}
